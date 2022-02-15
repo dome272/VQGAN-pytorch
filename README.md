@@ -36,13 +36,13 @@ Note: Let the model train for even longer to get better results.
 
 ## Train VQGAN on your own data:
 ### Training First Stage
-1. (optional) Configure Hyperparameters in ```training_vqgan.py````
-2. Set path to dataset in ```training_vqgan.py````
+1. (optional) Configure Hyperparameters in ```training_vqgan.py```
+2. Set path to dataset in ```training_vqgan.py```
 3. ```python training_vqgan.py```
 
 ### Training Second Stage
-1. (optional) Configure Hyperparameters in ```training_transformer.py````
-2. Set path to dataset in ```training_transformer.py````
+1. (optional) Configure Hyperparameters in ```training_transformer.py```
+2. Set path to dataset in ```training_transformer.py```
 3. ```python training_transformer.py```
 
 
