@@ -32,7 +32,7 @@ Original Left | Reconstruction Middle Left | Completion Middle Right | New Image
 
 Note: Let the model train for even longer to get better results.
 
-
+<hr>
 
 ## Train VQGAN on your own data:
 ### Training First Stage
