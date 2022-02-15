@@ -1,5 +1,5 @@
 ## Note:
-This is the code implemented in my YouTube video for VQGAN - link
+A code tutorial for VQGAN can be found here - link
 
 An explanation video for VQGAN can be found here - link
 
