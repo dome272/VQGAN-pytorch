@@ -1,7 +1,15 @@
 ## Note:
-A code tutorial for VQGAN can be found here - link
+Code Tutorial + Implementation Tutorial
 
-An explanation video for VQGAN can be found here - link
+<a href="https://www.youtube.com/watch?v=wcqLFDXaDO8">
+   <img alt="Qries" src="https://user-images.githubusercontent.com/61938694/154516539-90e2d4d0-4383-41f4-ad32-4c6d67bd2442.jpg"
+   width="300">
+</a>
+
+<a href="https://www.youtube.com/watch?v=_Br5WRwUz_U">
+   <img alt="Qries" src="https://user-images.githubusercontent.com/61938694/154628085-eede604f-442d-4bdb-a1ed-5ad3264e5aa0.jpg"
+   width="300">
+</a>
 
 # VQGAN
 Vector Quantized Generative Adversarial Networks (VQGAN) is a generative model for image modeling. It was introduced in [Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841). The concept is build upon two stages. The first stage learns in an autoencoder-like fashion by encoding images into a low-dimensional latent space, then applying vector quantization by making use of a codebook. Afterwards, the quantized latent vectors are projected back to the original image space by using a decoder. Encoder and Decoder are fully convolutional. The second stage is learning a transformer for the latent space. Over the course of training it learns which codebook vectors go along together and which not. This can then be used in an autoregressive fashion to generate before unseen images from the data distribution.
