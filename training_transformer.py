@@ -90,8 +90,8 @@ if __name__ == '__main__':
     parser.add_argument('--sos-token', type=int, default=0, help='Start of Sentence token.')
 
     args = parser.parse_args()
-    args.dataset_path = r"C:\Users\dome\datasets\flowers"
-    args.checkpoint_path = r".\checkpoints\vqgan_last_ckpt.pt"
+    args.dataset_path = r"../vq_data"
+    args.checkpoint_path = r"../vq_checkpoints/vqgan_last_ckpt.pt"
 
     train_transformer = TrainTransformer(args)
 
